@@ -1,0 +1,37 @@
+body {
+	font-family: Helvetica, "san-serif";
+	background-image: url("../images/grass.jpg");
+}
+
+.animal-btn {
+	background-color: #BC8F8F;
+	padding: 10px;
+	border-radius: 8px;
+	font-family: Helvetica, "san-serif";
+	font-size: 15px;
+	color: white;
+	margin: 5px;
+	font-weight: bold;
+}
+
+#add-animal {
+	text-align: center;
+	color: white;
+	background-color: #2E8B57;
+}
+#animal-form{
+	float: right;
+	border: 1px solid white;
+	padding: 10px;
+	margin: 25px;
+	color: white;
+	background-color: #32CD32;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+p {
+	color: white;
+	font-weight: bold;
+}
+
