@@ -56,18 +56,19 @@ var animals = ["mouse", "dog", "moose", "cat", "raccoon", "elephant", "penguin",
             gifDiv.append(p);
             gifDiv.append(image);
             $("#animals-view").append(gifDiv);
-        
-            $(".gif").on("click", function() {
-              var state = $(this).attr("data-state");
-              if (state === "still") {
-                $(this).attr("src", $(this).attr("data-animated"));
-                $(this).attr("data-state", "animated");
-              } else {
-                $(this).attr("src", $(this).attr("data-still"));
-                $(this).attr("data-state", "still");
-              }
-            });
+            
           }
+
+          $(".gif").on("click", function() {
+            var state = $(this).attr("data-state");
+            if (state === "still") {
+              $(this).attr("src", $(this).attr("data-animated"));
+              $(this).attr("data-state", "animated");
+            } else {
+              $(this).attr("src", $(this).attr("data-still"));
+              $(this).attr("data-state", "still");
+            }
+          });
       });
     }
 
